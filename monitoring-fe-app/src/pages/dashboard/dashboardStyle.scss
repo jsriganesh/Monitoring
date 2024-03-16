@@ -1,0 +1,62 @@
+.dashboard-container{
+    height: 100%;
+    .dashboard-body{
+        height: 93%;
+        padding: 0 4rem;
+        overflow-y: auto;
+
+        .dashboard-top-count-cards{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 1%;
+            margin-bottom: 1rem;
+            // row-gap: 1%;
+            .count-card{
+                height: 9rem;
+                // width: 18rem;
+                width: 20%;
+                background-color: #FFFFFF;
+                // margin: 1rem;
+                border-radius: 5px;
+                box-shadow: 0 0 8px -2px #939393;
+                cursor: pointer;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                
+
+
+                .label-text{
+                    font-size: 1rem;
+                    color: #5E5E5E;
+                    font-weight: bold;               
+
+                }
+                .count-text{
+                    font-size: 1.5rem;
+                    color: #5E5E5E;
+                    font-weight: bold;
+                }
+            } 
+        }
+
+        .dashboard-chart-details{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 1%;
+            .battery-status-card{
+                width: 33%;
+                height: 13rem;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+                box-shadow: 0 0 8px -2px #939393;
+            }
+        }
+
+
+        
+    }
+}

@@ -1,0 +1,14 @@
+.Login-container {
+  background-color: grey;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .login-body {
+    background-color: white;
+    padding: 2rem;
+    width: 20%;
+  }
+}
